@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.Lat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.WebApp", "ProjectIdeasWithDotNet8.WebApp\ProjectIdeasWithDotNet8.WebApp.csproj", "{E29DE0C6-C064-47F9-93BD-8CFD162C5249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.DreamDictionary", "ProjectIdeasWithDotNet8.DreamDictionary\ProjectIdeasWithDotNet8.DreamDictionary.csproj", "{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{E29DE0C6-C064-47F9-93BD-8CFD162C5249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E29DE0C6-C064-47F9-93BD-8CFD162C5249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E29DE0C6-C064-47F9-93BD-8CFD162C5249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
