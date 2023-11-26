@@ -1,6 +1,0 @@
-@ProjectIdeasWithDotNet8.WebApp_HostAddress = http://localhost:5018
-
-GET {{ProjectIdeasWithDotNet8.WebApp_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

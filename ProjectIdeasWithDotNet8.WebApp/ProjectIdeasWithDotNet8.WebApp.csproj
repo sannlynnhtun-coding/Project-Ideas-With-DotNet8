@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectIdeasWithDotNet8.LatHtaukBayDin\ProjectIdeasWithDotNet8.LatHtaukBayDin.csproj" />
   </ItemGroup>
 
 </Project>
