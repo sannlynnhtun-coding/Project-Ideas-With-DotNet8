@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProjectIdeasWithDotNet8.Birds\ProjectIdeasWithDotNet8.Birds.csproj" />
     <ProjectReference Include="..\ProjectIdeasWithDotNet8.DreamDictionary\ProjectIdeasWithDotNet8.DreamDictionary.csproj" />
     <ProjectReference Include="..\ProjectIdeasWithDotNet8.LatHtaukBayDin\ProjectIdeasWithDotNet8.LatHtaukBayDin.csproj" />
   </ItemGroup>
