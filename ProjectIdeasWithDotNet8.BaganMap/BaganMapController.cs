@@ -18,12 +18,12 @@ namespace ProjectIdeasWithDotNet8.LatHtaukBayDin
         [HttpGet, Route("GetRouteId")]
         public IActionResult GetRouteId()
         {
-            var routeIdList = new List<string>
+            var lst = _dataService.TravelRouteList().Select(x => new
             {
-                "7C1DDEED-1B9E-4B54-8AE9-986BB44C42C1",
-                "5381343D-1F64-4D39-849A-E889C554B5E6"
-            };   
-            return Ok(routeIdList);
+                TravleRoutId = x.TravelRouteId,
+                TravelRouteName = x.TravelRouteName
+            }).ToList();   
+            return Ok(lst);
         }
 
         [HttpGet,Route("GetRoute/{travelRouteId}")]
