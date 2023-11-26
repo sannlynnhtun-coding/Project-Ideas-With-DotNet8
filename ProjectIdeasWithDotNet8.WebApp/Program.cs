@@ -6,7 +6,7 @@ using ProjectIdeasWithDotNet8.BaganMap;
 
 using ProjectIdeasWithDotNet8.MyanmarMonths;
 using ProjectIdeasWithDotNet8.Zodiac;
-
+using ProjectIdeasWithDotNet8.MyanmarProverbs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +24,8 @@ builder.Services.AddPickAPileService();
 builder.Services.AddBaganMapModularService();
 builder.Services.AddMyanmarMonthsService();
 builder.Services.AddZodiacService();
+builder.Services.AddMyanmarProverbsService();
+
 
 var app = builder.Build();
 
