@@ -8,5 +8,6 @@ public class MyanmarMonthModel
     public string FestivalMm { get; set; }
     public string FestivalEn { get; set; }
     public string Description { get; set; }
+    public string ImgUrl { get; set; }
     public string Detail { get; set; }
 }

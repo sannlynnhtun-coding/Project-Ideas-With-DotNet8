@@ -7,7 +7,12 @@ public class DataService
 {
     public List<MyanmarMonthModel> GetMonths()
     {
-        return JsonConvert.DeserializeObject<List<MyanmarMonthModel>>(Data.Months)!;
+        var lst = JsonConvert.DeserializeObject<List<MyanmarMonthModel>>(Data.Months)!;
+        lst.ForEach(x =>
+        {
+            x.ImgUrl = $"myanmar-months/img/{x.Id}.jpg";
+        });
+        return lst;
     }
 
     public MyanmarMonthModel GetMonth(int id)

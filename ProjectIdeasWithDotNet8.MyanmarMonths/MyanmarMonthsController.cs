@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace ProjectIdeasWithDotNet8.MyanmarMonths
 {
-
     [Route("api/[controller]")]
     public class MyanmarMonthsController : ControllerBase
     {
@@ -22,7 +21,13 @@ namespace ProjectIdeasWithDotNet8.MyanmarMonths
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_dataService.GetMonths());
+            return Ok(_dataService.GetMonths().Select(x=>new
+            {
+                Id = x.Id,
+                MonthEn = x.MonthEn,
+                MonthMm = x.MonthMm,
+                ImgUrl = x.ImgUrl
+            }).ToList());
         }
 
         [HttpGet("{id}")]
