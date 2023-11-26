@@ -1,5 +1,6 @@
 using ProjectIdeasWithDotNet8.LatHtaukBayDin;
 using ProjectIdeasWithDotNet8.DreamDictionary;
+using ProjectIdeasWithDotNet8.PickAPile;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddLatHtaukBayDinModularService();
 builder.Services.AddDreamDictionaryService();
+builder.Services.AddPickAPileService();
 
 var app = builder.Build();
 
@@ -23,6 +25,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
