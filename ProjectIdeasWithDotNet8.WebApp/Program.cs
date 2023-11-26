@@ -1,6 +1,9 @@
 using ProjectIdeasWithDotNet8.LatHtaukBayDin;
 using ProjectIdeasWithDotNet8.DreamDictionary;
 using ProjectIdeasWithDotNet8.Birds;
+using ProjectIdeasWithDotNet8.MyanmarMonths;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,6 +16,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddLatHtaukBayDinModularService();
 builder.Services.AddDreamDictionaryService();
 builder.Services.AddBirdsService();
+builder.Services.AddMyanmarMonthsService();
+
 
 var app = builder.Build();
 
