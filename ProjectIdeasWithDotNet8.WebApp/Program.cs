@@ -17,7 +17,7 @@ builder.Services.AddLatHtaukBayDinModularService();
 builder.Services.AddDreamDictionaryService();
 builder.Services.AddBirdsService();
 builder.Services.AddPickAPileService();
-builder.Services.AddBaganMapModularModularService();
+builder.Services.AddBaganMapModularService();
 
 var app = builder.Build();
 

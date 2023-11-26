@@ -10,7 +10,7 @@ namespace ProjectIdeasWithDotNet8.BaganMap
 {
     public static class BaganMapModularService
     {
-        public static IServiceCollection AddBaganMapModularModularService(this IServiceCollection services)
+        public static IServiceCollection AddBaganMapModularService(this IServiceCollection services)
         {
             services.AddScoped<DataService>();
             return services;
