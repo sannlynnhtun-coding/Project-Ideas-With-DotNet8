@@ -1,4 +1,7 @@
 using ProjectIdeasWithDotNet8.LatHtaukBayDin;
+using ProjectIdeasWithDotNet8.DreamDictionary;
+using ProjectIdeasWithDotNet8.Birds;
+using ProjectIdeasWithDotNet8.PickAPile;
 using ProjectIdeasWithDotNet8.BaganMap;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +14,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddLatHtaukBayDinModularService();
+builder.Services.AddDreamDictionaryService();
+builder.Services.AddBirdsService();
+builder.Services.AddPickAPileService();
 builder.Services.AddBaganMapModularModularService();
 
 var app = builder.Build();
@@ -23,6 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
