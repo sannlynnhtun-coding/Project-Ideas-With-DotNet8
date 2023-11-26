@@ -1,4 +1,5 @@
 using ProjectIdeasWithDotNet8.LatHtaukBayDin;
+using ProjectIdeasWithDotNet8.BaganMap;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddLatHtaukBayDinModularService();
+builder.Services.AddBaganMapModularModularService();
 
 var app = builder.Build();
 
