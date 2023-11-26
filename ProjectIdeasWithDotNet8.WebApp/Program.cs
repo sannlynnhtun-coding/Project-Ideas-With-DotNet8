@@ -1,6 +1,9 @@
 using ProjectIdeasWithDotNet8.LatHtaukBayDin;
 using ProjectIdeasWithDotNet8.DreamDictionary;
 using ProjectIdeasWithDotNet8.Birds;
+using ProjectIdeasWithDotNet8.PickAPile;
+using ProjectIdeasWithDotNet8.BaganMap;
+
 using ProjectIdeasWithDotNet8.MyanmarMonths;
 
 
@@ -16,6 +19,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddLatHtaukBayDinModularService();
 builder.Services.AddDreamDictionaryService();
 builder.Services.AddBirdsService();
+builder.Services.AddPickAPileService();
+builder.Services.AddBaganMapModularService();
 builder.Services.AddMyanmarMonthsService();
 
 
@@ -29,6 +34,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
 
 app.UseAuthorization();
 

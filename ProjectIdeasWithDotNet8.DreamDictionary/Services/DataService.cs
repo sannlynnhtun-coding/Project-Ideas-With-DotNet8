@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using ProjectIdeasWithDotNet8.DreamDictionary.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,24 +24,5 @@ namespace ProjectIdeasWithDotNet8.DreamDictionary.Services
         {
             return Get().BlogDetail.ToList();
         }
-    }
-
-    public class BlogResponseModel
-    {
-        public BlogHeaderModel[] BlogHeader { get; set; }
-        public BlogDetailModel[] BlogDetail { get; set; }
-    }
-
-    public class BlogHeaderModel
-    {
-        public int BlogId { get; set; }
-        public string BlogTitle { get; set; }
-    }
-
-    public class BlogDetailModel
-    {
-        public int BlogDetailId { get; set; }
-        public int BlogId { get; set; }
-        public string BlogContent { get; set; }
     }
 }
