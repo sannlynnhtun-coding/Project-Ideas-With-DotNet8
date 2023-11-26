@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProjectIdeasWithDotNet8.Birds.Services
 {
-    public static class BirdData
+    public static class Data
     {
-        public static string Birds = @"[
+        public static string JsonData = @"[
     {
       ""Id"": 1,
       ""BirdMyanmarName"": ""ငှက်စိမ်းရင်ဝါ"",

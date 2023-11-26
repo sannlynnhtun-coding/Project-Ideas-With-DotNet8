@@ -12,7 +12,7 @@ namespace ProjectIdeasWithDotNet8.Birds.Services
     {
         public List<BirdModel> GetBirds()
         {
-            return JsonConvert.DeserializeObject<List<BirdModel>>(BirdData.Birds)!;
+            return JsonConvert.DeserializeObject<List<BirdModel>>(Data.JsonData)!;
         }
 
         public BirdModel GetBird(int id)
