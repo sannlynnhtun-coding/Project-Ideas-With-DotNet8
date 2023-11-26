@@ -18,6 +18,7 @@
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.LatHtaukBayDin\ProjectIdeasWithDotNet8.LatHtaukBayDin.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.PickAPile\ProjectIdeasWithDotNet8.PickAPile.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.MyanmarMonths\ProjectIdeasWithDotNet8.MyanmarMonths.csproj" />
+		<ProjectReference Include="..\ProjectIdeasWithDotNet8.Zodiac\ProjectIdeasWithDotNet8.Zodiac.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
