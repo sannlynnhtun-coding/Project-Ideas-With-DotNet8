@@ -14,13 +14,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.Web
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.DreamDictionary", "ProjectIdeasWithDotNet8.DreamDictionary\ProjectIdeasWithDotNet8.DreamDictionary.csproj", "{00C0A398-AFF8-4FCC-9A16-1D48EFFDE3E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.Birds", "ProjectIdeasWithDotNet8.Birds\ProjectIdeasWithDotNet8.Birds.csproj", "{6BE680DE-0EA3-4B22-8618-B633ECE82016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.Birds", "ProjectIdeasWithDotNet8.Birds\ProjectIdeasWithDotNet8.Birds.csproj", "{6BE680DE-0EA3-4B22-8618-B633ECE82016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.MyanmarMonths", "ProjectIdeasWithDotNet8.MyanmarMonths\ProjectIdeasWithDotNet8.MyanmarMonths.csproj", "{1986FC30-9324-499D-A7D5-71C9019F3B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.MyanmarMonths", "ProjectIdeasWithDotNet8.MyanmarMonths\ProjectIdeasWithDotNet8.MyanmarMonths.csproj", "{1986FC30-9324-499D-A7D5-71C9019F3B8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.PickAPile", "ProjectIdeasWithDotNet8.PickAPile\ProjectIdeasWithDotNet8.PickAPile.csproj", "{40A6A366-DB58-4425-BEB8-D432858C2852}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.BaganMap", "ProjectIdeasWithDotNet8.BaganMap\ProjectIdeasWithDotNet8.BaganMap.csproj", "{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem", "ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem\ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem.csproj", "{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
