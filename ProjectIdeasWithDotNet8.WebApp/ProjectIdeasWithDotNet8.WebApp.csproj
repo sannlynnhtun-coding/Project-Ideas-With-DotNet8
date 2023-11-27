@@ -16,9 +16,11 @@
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.DreamDictionary\ProjectIdeasWithDotNet8.DreamDictionary.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.BaganMap\ProjectIdeasWithDotNet8.BaganMap.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.LatHtaukBayDin\ProjectIdeasWithDotNet8.LatHtaukBayDin.csproj" />
+		<ProjectReference Include="..\ProjectIdeasWithDotNet8.MyanmarProverbs\ProjectIdeasWithDotNet8.MyanmarProverbs.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem\ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.PickAPile\ProjectIdeasWithDotNet8.PickAPile.csproj" />
 		<ProjectReference Include="..\ProjectIdeasWithDotNet8.MyanmarMonths\ProjectIdeasWithDotNet8.MyanmarMonths.csproj" />
+		<ProjectReference Include="..\ProjectIdeasWithDotNet8.Zodiac\ProjectIdeasWithDotNet8.Zodiac.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

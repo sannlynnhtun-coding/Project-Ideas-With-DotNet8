@@ -5,7 +5,8 @@ using ProjectIdeasWithDotNet8.PickAPile;
 using ProjectIdeasWithDotNet8.BaganMap;
 using ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem;
 using ProjectIdeasWithDotNet8.MyanmarMonths;
-
+using ProjectIdeasWithDotNet8.Zodiac;
+using ProjectIdeasWithDotNet8.MyanmarProverbs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,8 @@ builder.Services.AddBirdsService();
 builder.Services.AddPickAPileService();
 builder.Services.AddBaganMapModularService();
 builder.Services.AddMyanmarMonthsService();
+builder.Services.AddZodiacService();
+builder.Services.AddMyanmarProverbsService();
 
 string jsonString = await File.ReadAllTextAsync(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "wwwroot/movie-ticket/data.json"));
 builder.Services.AddMovieTicketOnlineBookingSystemModularService(jsonString);

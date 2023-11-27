@@ -22,6 +22,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.Pic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectIdeasWithDotNet8.BaganMap", "ProjectIdeasWithDotNet8.BaganMap\ProjectIdeasWithDotNet8.BaganMap.csproj", "{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.Zodiac", "ProjectIdeasWithDotNet8.Zodiac\ProjectIdeasWithDotNet8.Zodiac.csproj", "{5F710402-F4D4-4221-BEB1-EC65D00D8B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.MyanmarProverbs", "ProjectIdeasWithDotNet8.MyanmarProverbs\ProjectIdeasWithDotNet8.MyanmarProverbs.csproj", "{AADF9DC9-E450-4D14-B1D7-55FFE4AD71FD}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem", "ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem\ProjectIdeasWithDotNet8.MovieTicketOnlineBookingSystem.csproj", "{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}"
 EndProject
 Global
@@ -58,6 +62,14 @@ Global
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF1E6E3A-35FC-4724-9669-41CAEB5ED243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F710402-F4D4-4221-BEB1-EC65D00D8B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F710402-F4D4-4221-BEB1-EC65D00D8B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F710402-F4D4-4221-BEB1-EC65D00D8B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F710402-F4D4-4221-BEB1-EC65D00D8B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADF9DC9-E450-4D14-B1D7-55FFE4AD71FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADF9DC9-E450-4D14-B1D7-55FFE4AD71FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADF9DC9-E450-4D14-B1D7-55FFE4AD71FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADF9DC9-E450-4D14-B1D7-55FFE4AD71FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA15DFE-B620-45D4-8E2E-44F327F4C46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
